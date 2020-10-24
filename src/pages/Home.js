@@ -1,8 +1,6 @@
 import React from 'react';
-// import images and styles
 import logo from '../logo.svg';
 import '../App.css';
-// import used components
 import Header from '../components/Header';
 
 function Home () {
