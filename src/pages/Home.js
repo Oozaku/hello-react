@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import logo from '../logo.svg';
 import '../App.css';
 import Header from '../components/Header';
@@ -12,6 +13,11 @@ function Home () {
         <h1>
           Hello World!
         </h1>
+        
+        <Link to='/anotherhello'
+              className="App-link">
+                  Dummie-Page
+        </Link>
       </header>
     </div> 
   ); 
