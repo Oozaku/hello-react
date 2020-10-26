@@ -1,8 +1,6 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import TopPanel from '../components/TopPanel'
 import '../App.css';
-import Header from '../components/Header'
 import { Typography } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
 

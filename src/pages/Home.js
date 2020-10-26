@@ -1,19 +1,21 @@
 import React from 'react';
-import Link from '@material-ui/core/Link';
-import Typography from '@material-ui/core/Typography';
-import logo from '../logo.svg';
 import '../App.css';
-import Header from '../components/Header';
+import Grid from '@material-ui/core/Grid';
 import TopPanel from '../components/TopPanel'
+import NewCard from '../components/NewCard';
 
 function Home () {
   return (
     <div>
       <TopPanel />
-      <Typography variant='h1'>Hello World!</Typography>
-      <Link href='/anotherhello'>
-        <Typography  color='primary'>Another Hello</Typography>
-      </Link>
+      <Grid container spacing={5} justify='center'>
+        <Grid item xs={12} sm={3} >
+          <NewCard />
+        </Grid>
+        <Grid item xs={12} sm={3} >
+          <NewCard />
+        </Grid>
+      </Grid>
     </div> 
   ); 
 }
