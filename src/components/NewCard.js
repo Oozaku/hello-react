@@ -35,7 +35,7 @@ function NewCard(props) {
       </CardContent>
       <CardActions>
         <Link href={props.src}>
-          <Typography color='primary'>Checkout!</Typography>
+          <Typography color='primary'>Check it out!</Typography>
         </Link>
       </CardActions>
     </Card>
