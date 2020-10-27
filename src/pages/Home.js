@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css';
 import Grid from '@material-ui/core/Grid';
 import TopPanel from '../components/TopPanel'
 import NewCard from '../components/NewCard';

@@ -1,6 +1,5 @@
 import React from 'react';
 import TopPanel from '../components/TopPanel'
-import '../App.css';
 import { Typography } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
 
