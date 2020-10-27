@@ -19,22 +19,22 @@ const useStyles = makeStyles({
   },
 });
 
-function NewCard() {
+function NewCard(props) {
   const classes = useStyles();
 
   return (
     <Card className={classes.root}>
       <CardContent>
         <Typography variant="h5" component="h2">
-          Another Hello
+          {props.title}  
         </Typography>
 
         <Typography variant="body2" component="p">
-          Playing with grid! 
+          {props.description} 
         </Typography>
       </CardContent>
       <CardActions>
-        <Link href='/anotherhello'>
+        <Link href={props.src}>
           <Typography color='primary'>Checkout!</Typography>
         </Link>
       </CardActions>

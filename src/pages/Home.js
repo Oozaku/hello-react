@@ -10,10 +10,10 @@ function Home () {
       <TopPanel />
       <Grid container spacing={5} justify='center'>
         <Grid item xs={12} sm={3} >
-          <NewCard />
+          <NewCard title='Another Hello' description='Using grid!' src='/anotherhello'/>
         </Grid>
         <Grid item xs={12} sm={3} >
-          <NewCard />
+          <NewCard title='Another Hello' description='Using grid!' src='/anotherhello'/>
         </Grid>
       </Grid>
     </div> 
