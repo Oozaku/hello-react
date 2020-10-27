@@ -7,7 +7,7 @@ import '../App.css';
 function TopPanel() {
 
   return (
-    <div>
+    <React.Fragment>
       <AppBar position="static">
         <Toolbar>
           <Link href='/' color='inherit'>
@@ -15,7 +15,7 @@ function TopPanel() {
           </Link>
         </Toolbar>
       </AppBar>
-    </div>
+    </React.Fragment>
   );
 }
 
