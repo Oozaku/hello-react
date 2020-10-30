@@ -1,10 +1,9 @@
 import React from 'react';
+import Typography from '@material-ui/core/Typography';
 
 function Header(prop) {
   return (
-    <header>
-      <h1>{prop.title}</h1>
-    </header>
+  <Typography variant='h1'>{prop.title}</Typography>
   );
 }
 

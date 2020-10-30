@@ -29,7 +29,7 @@ const NewCard = (props) => {
         <Typography variant="h5" component="h2">
           {title}  
         </Typography>
-
+        <br/>
         <Typography variant="body2" component="p">
           {description} 
         </Typography>

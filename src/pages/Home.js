@@ -13,6 +13,11 @@ const cardsInfo = [
     title: 'Counter 0 to 5',
     description: 'Using useState!',
     link: '/counter',
+  },
+  {
+    title: 'Playing with Fake API',
+    description: 'Using axios to get an fake API and practicing useEffect and useState',
+    link: '/playwithfakeapi',
   }
 ];
 
