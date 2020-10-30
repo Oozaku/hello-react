@@ -31,7 +31,7 @@ const Counter = () => {
 
         <Grid container item xs={12} justify='center'> {/*check if count is a odd or even number*/}
           {
-            count % 2 == 0? (
+            count % 2 === 0? (
               <Typography variant='h3'>Count is a even number!</Typography>
             ):(
               <Typography variant='h3'>Count is a odd number!</Typography>
